@@ -29,5 +29,5 @@ def myth():
 def hercules():
     return render_template("hercules.html")
 
-
+#runs the app
 app.run(debug=True, port=8000, host='0.0.0.0')
