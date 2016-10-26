@@ -29,5 +29,10 @@ def myth():
 def hercules():
     return render_template("hercules.html")
 
+@app.route('/hero')
+# @app.route('/<name>')
+def hero():
+    return render_template("hero.html")
+
 #runs the app
 app.run(debug=True, port=8000, host='0.0.0.0')
