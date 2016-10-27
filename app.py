@@ -34,5 +34,10 @@ def hercules():
 def hero():
     return render_template("hero.html")
 
+@app.route('/heroes')
+# @app.route('/<name>')
+def heroes():
+    return render_template("heroes.html")
+
 #runs the app
 app.run(debug=True, port=8000, host='0.0.0.0')
