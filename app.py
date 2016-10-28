@@ -39,5 +39,10 @@ def hero():
 def heroes():
     return render_template("heroes.html")
 
+@app.route('/herotest')
+# @app.route('/<name>')
+def herotest():
+    return render_template("herotest.html")
+
 #runs the app
 app.run(debug=True, port=8000, host='0.0.0.0')

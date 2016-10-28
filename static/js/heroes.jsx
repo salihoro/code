@@ -15,7 +15,7 @@ return (
     </thead>
     <tbody>
       <tr>
-        <td><a href="/heroes/hercules">Herucles</a></td>
+        <td>Herucles</td>
         <td>Zeus and Alcmene</td>
         <td>Demigod</td>
         <td>Bow and arrow, champion wrestler, superhuman strength, intelligence</td>
